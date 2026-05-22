@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background: linear-gradient(
+    269deg,
+    rgba(122, 100, 235, 1) 15%,
+    rgba(144, 112, 233, 1) 48%,
+    rgba(171, 128, 236, 1) 75%
+  );
+}
+div form input,
+textarea {
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  padding: 8px;
+  border: none;
+  background: #eeeeee;
+}
+
+div form button {
+  display: block;
+  margin: 15px auto;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 25px;
+  background: #02b3d2;
+  color: #ffffff;
+}
+
+.First-Name {
+  margin-top: 0;
+}
+.style-form p {
+  margin: 15px auto;
+  padding: 8px;
+  margin-bottom: 0px;
+  margin-left: 9%;
+}
+.style-form h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.cards {
+  margin: 8% 10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card h1 {
+  margin-top: 50px;
+  font-size: 33px;
+  color: #ffffff;
+}
+.card p {
+  margin: 15px auto;
+  padding: 8px;
+  color: #91f3f9;
+  width: 75%;
+  font-size: 20px;
+}
+.card {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  background: #02b3d2;
+  padding: 40px;
+  min-height: 522px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.style-form {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  background: #ffffff;
+  padding: 40px;
+  min-height: 400px;
+  border-radius: 10px;
+}
