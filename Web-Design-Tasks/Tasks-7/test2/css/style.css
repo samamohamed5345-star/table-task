@@ -1,0 +1,38 @@
+
+.card{
+    height: 400px;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    overflow: hidden;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.layout{
+    height: 100%;
+    /* width: 100%; */
+    padding: 20px;
+    background: #FFFFFF;
+    top: 83%;
+    transition: top 1.2s;
+    /* left: 0;  */
+}
+.card:hover .layout{
+top: 0;
+}
+.layout h3{
+    letter-spacing: 5px;
+}
+.layout p{
+    line-height: 35px;
+    color: rgba(60, 57, 57, 0.668);
+}
+.layout a{
+    text-decoration: none;
+    color: rgba(0, 128, 0, 0.696);
+}

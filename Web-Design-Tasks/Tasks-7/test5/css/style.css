@@ -1,0 +1,100 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QI2-xb4uzSpjaS0X55wxB35VwG_Ww31KAw&s);
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+.card {
+   perspective: 1000px;
+  width: 20%;
+  height: 400px;
+  position: relative;
+  margin: 10% 40%;
+  transform-style: preserve-3d;
+  transition: all 2s;
+}
+.card > div {
+  height: 100%;
+    transform-style: preserve-3d;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  background: aqua;
+  padding: 10%;
+  z-index: 2;
+  background-image: url(../images/see-building.jpeg);
+  background-size: contain;
+  backface-visibility: hidden
+  
+}
+.style-front {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60%;
+  transform: translateY(100%);
+}
+.style-front h4 {
+  margin-block: 15px;
+  color: aliceblue;
+}
+.style-front i {
+  font-size: 30px;
+  transform: rotate(313deg);
+  color: #19abfe;
+}
+.back {
+  color: aliceblue;
+  background: #ffffff;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: rotatey(180deg)translateZ(1px);
+ }
+.back img {
+  width: 17%;
+  margin-bottom: 15px;
+}
+.back h4 {
+  margin-bottom: 1px;
+  margin-top: 10px;
+  color: #000000b9;
+}
+.back p {
+  line-height: 25px;
+  color: #6c7994;
+}
+.back .style-icon {
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 18px;
+  right: 15px;
+}
+.back .style-icon i {
+  font-size: 25px;
+  color: #19abfe;
+}
+.back .style-icon a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #19abfe;
+}
+.card:hover{
+    transform: rotatey(180deg);
+}

@@ -1,0 +1,40 @@
+body{
+    background: #000;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: #42b329;
+    border-radius: 50%;
+    animation: circle;
+    animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+}
+@keyframes circle{
+    0%{
+        transform: translate(0,0);
+        background: aqua;
+        rotate: 0;
+    }
+    25%{
+        transform: translateY(0,500pv);
+        background: yellow;
+        rotate: 90deg;
+    }
+    50%{
+        transform: translatey(400px,500px);
+        background: green;
+        rotate: 180deg;
+        }
+    75%{
+        transform: translatey(400px,0);
+        background: blue;
+        rotate: 270deg;
+        
+    } 
+    100%{
+        transform: translatey(0,0);
+        background: darkgray;
+        rotate: 360deg;
+    } 
+}

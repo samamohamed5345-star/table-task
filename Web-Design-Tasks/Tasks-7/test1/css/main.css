@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 9%;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1,
+.card2,
+.card3 {
+  width: 30%;
+  background: #7ec2c935;
+  width: 33%;
+  padding: 3%;
+  transition: all 1.1s;
+  border-radius: 12px;
+}
+.card3 {
+  transition: color 4s;
+}
+.card1 p,
+.card2 p,
+.card3 p {
+  font-size: 18px;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #008b8b;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 12px 0 100%;
+  width: 50px;
+  height: 50px;
+  /* padding: 1%; */
+}
+.card1:hover {
+  background: #008b8b;
+  color: aliceblue;
+}
+.card2:hover {
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: #eee;
+}
+.card3:hover {
+  border-top-right-radius: 12px;
+  border: 2px solid #008b8b;
+  background: #eee;
+}
+.card3 p {
+  transition: all 1.5s;
+}
+.card3:hover p {
+  color: #008b8b;
+}
+.inner2 {
+  margin-top: 5%;
+}
+.inner2 .style {
+  padding: 1%;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  border: 1px gray solid;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.inner2 i {
+  font-size: 25px;
+}
+.inner2 .arrow2 {
+  position: relative;
+}
+.line {
+  background: red;
+  width: 40px;
+  right: -40px;
+  top: 0;
+  bottom: 0px;
+  transform-origin: bottom;
+  transition: all 0.4s linear;
+}
+.style:hover .line {
+  transform: rotate(-12deg);
+}
+.line i {
+  margin-top: 15px;
+  color: #eee;
+  font-size: 15px;
+}

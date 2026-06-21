@@ -1,0 +1,53 @@
+body{
+    background: #000;
+}
+.stre{
+    position: relative;
+    background: #000;
+    background-image: url(../images/1000_F_552861658_d0HaigFwf6sdhf3lPEX30wd3YDcIJpD9.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.car img ,.car2 img{
+    width: 15%;
+}
+.car{
+
+    position: absolute;
+    bottom: 17%;
+    top: 2%;
+    transform: rotateY(180deg);
+}
+.car2{
+
+    position: absolute;
+    bottom: 50%;
+    transform: rotateY(180deg);
+}
+.car{
+animation-iteration-count:infinite ;
+animation-name: car;
+animation-duration: 3s;
+}
+.car2{
+animation-iteration-count:infinite ;
+animation-name: car2;
+animation-duration: 3s;
+}
+@keyframes car {
+    0%{
+        transform: translatex(90%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes car2 {
+    0%{
+        transform: translatex(0);
+    }
+    100%{
+        transform: translateX(90%);
+    }
+}
