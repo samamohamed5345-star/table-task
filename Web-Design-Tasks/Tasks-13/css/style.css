@@ -1,0 +1,11 @@
+
+ul li {
+    cursor: pointer;
+    color: black;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+ul li.active {
+    color: red;
+    font-weight: bold;
+}
