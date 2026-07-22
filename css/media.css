@@ -1,0 +1,80 @@
+/* Sec2 */
+@media (max-width: 992px) {
+  #sec2 .inner > div {
+    width: 110px;
+  }
+}
+
+@media (max-width: 576px) {
+  #sec2 .inner > div {
+    width: 85px;
+  }
+  #sec2 .inner > div p {
+    font-size: 13px;
+  }
+}
+/* Sec4 */
+
+@media (min-width: 768px) {
+  .col-custom {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+    
+  }
+    #sec4 .card:hover {
+  border: none !important;
+}
+/* Sec4 */
+}
+
+@media (min-width: 992px) {
+  .col-custom {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+    
+  }
+    #sec4 .card:hover {
+  border: none !important;
+}
+/* Sec4 */
+}
+
+@media (min-width: 1200px) {
+  .col-custom {
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+    
+  }
+    #sec4 .card:hover {
+  border: none !important;
+}
+/* Sec4 */
+}
+/* Sec6 */
+
+
+/* Sec7 */
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 24px;
+    min-height: auto;
+  }
+
+  .image-stage {
+    min-height: 380px;
+    width: 100%;
+  }
+
+  .product-card {
+    max-width: 100%;
+    width: 100%;
+  }
+  .arrow {
+    opacity: 1;
+    pointer-events: auto;
+    background: rgba(255,255,255,.85);
+  }
+}
+/* End Home */
+
