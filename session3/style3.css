@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+#navbar {
+    background-image: url(./images/drew-coffman-1872.jpg);
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.link {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.link ul li {
+    display: inline-block;
+    padding-inline: 15px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+.link ul li a:hover {
+    color: #111111;
+}
+
+.words {
+    color: #fff;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 350px;
+    text-align: center;
+}
+
+button {
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.bu1 {
+    background-color: #8A784E;
+}
+
+.bu2 {
+    background-color: transparent;
+    border: solid 1px #fff;
+}
+
+.ph1 {
+    margin: auto;
+    margin-top: 60px;
+}
+
+.ph1 .float1 ul li {
+    display: inline-block;
+    width: 45px;
+}
+
+.item2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.float1 {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    font-size: 19px;
+}
+
+div.ph1 div.float1 ul {
+    padding-left: 0;
+}
+
+div.ph1 div.float1 ul div p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+div.ph1 div.float1 ul div img {
+    margin: 10px;
+    border-radius: 50%;
+    border: #8A784E 0.5px solid;
+    vertical-align: middle;
+}
+
+.item2 img {
+    width: 80%;
+}
+
+#Location {
+    margin-top: 60px;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.616);
+}
+
+.pragraph-Location {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.pragraph-Location h3 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.img3 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+.Baking {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    /* font-size: 20px; */
+}
+
+.assign3 {
+    text-align: center;
+    float: right;
+    width: 30%;
+    padding: 20PX;
+}
+
+.clear {
+    clear: both;
+}
+#navbar4 {
+    background-color: rgba(238, 238, 238, 0.616);
+}
+.assign4 {
+    width: 49%;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.frame {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#navbar4 ul {
+    padding-left: 0px;
+}
+#navbar4 .assign4 ul li {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+}
+#navbar4 .assign4 ul div p {
+    display: inline-block;
+    padding-left: 9px;
+}
+#navbar4 .assign4 ul div img {
+    border-radius: 50%;
+    background-color: #8A784E;
+    padding: .5px;
+    margin-bottom: 2px;
+}
+#navbar5{
+    background-color:#403d38 ;
+    color:#969696 ;
+    margin-top: 50px;
+    margin-bottom: 0%;
+
+    padding: 20px 0;
+}
+hr{
+
+    width: 90%;
+    height: .15px;
+    border: none;
+    background-color:#969696 ;
+}
+#navbar5 .ph5  {
+    width: 24.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+#navbar5 .img{
+    width: 12%;
+    display: inline-block;
+    vertical-align:middle;
+
+}
+div.bgc{
+    background-image: url(./images/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 25%;
+    height: 420px;
+    padding: 40px 0;
+    padding-top: 0;
+
+}
+#navbar5 p a{
+    text-decoration: none;
+    color: #969696;
+}
+#navbar5 h2{
+    color: rgba(240, 248, 255, 0.738);
+}
+#navbar5 .imge{
+    width: 8%;
+    display: inline-block;
+    vertical-align:middle;
+
+}
+#navbar5 p{
+    display: inline-block;
+
+}
+#navbar5 .text{
+    vertical-align: top;
+}
+#navbar6{
+    background-color: #353330;
+    color:#969696;
+    text-align: center;
+    padding: 30px 0;
+}
+#navbar6 .img6 > img{
+    width:28% ;
+}
+#navbar6 .img6 ul li{
+    display:inline-block ;
+    width:5% ;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 2.5px #403d38 solid;
+    /* width:70px ; */
+}
