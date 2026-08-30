@@ -23,7 +23,7 @@ a {
 }
 
 #main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8)), url(/imags/hero-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(/imags/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -32,323 +32,17 @@ a {
 /* body{
     height: 200vh;
 } */
-h4::before {
-    content: "|";
-    animation: move 15s infinite;
 
+/* Typing effect: النص نفسه بقى بيتكتب بـ JS في index.js.
+   الكيرسر الوامض ده بس اللي فاضل CSS لأنه حركة بسيطة (opacity toggle) */
+.typed-cursor {
+    display: inline-block;
+    animation: blink 0.8s steps(2) infinite;
 }
 
-@keyframes move {
-    0% {
-        content: "Developer|";
-    }
-
-    1.5% {
-        content: "Developer";
-    }
-
-    3% {
-        content: "Developer|";
-    }
-
-    4.5% {
-        content: "Develope|";
-    }
-
-    6% {
-        content: "Develop|";
-    }
-
-    7.5% {
-        content: "Develo|";
-    }
-
-    9% {
-        content: "Devel|";
-    }
-
-    10.5% {
-        content: "Deve|";
-    }
-
-    12% {
-        content: "Dev|";
-    }
-
-    13.5% {
-        content: "De|";
-    }
-
-    15% {
-        content: "D|";
-    }
-
-    16.5% {
-        content: "|";
-    }
-
-    18% {
-        content: "D|";
-    }
-
-    19.5% {
-        content: "De|";
-    }
-
-    21% {
-        content: "Des|";
-    }
-
-    22.5% {
-        content: "Desi|";
-    }
-
-    24% {
-        content: "Desig|";
-    }
-
-    25.5% {
-        content: "Design|";
-    }
-
-    27% {
-        content: "Designe|";
-    }
-
-    28.5% {
-        content: "Designer|";
-    }
-
-    30% {
-        content: "Designer";
-    }
-
-    31.5% {
-        content: "Designer|";
-    }
-
-    33% {
-        content: "Designe|";
-    }
-
-    34.5% {
-        content: "Design|";
-    }
-
-    36% {
-        content: "Desig|";
-    }
-
-    37.5% {
-        content: "Desi|";
-    }
-
-    39% {
-        content: "Des|";
-    }
-
-    40.5% {
-        content: "De|";
-    }
-
-    42% {
-        content: "D|";
-    }
-
-    43.5% {
-        content: "|";
-    }
-
-    45% {
-        content: "F|";
-    }
-
-    46.5% {
-        content: "Fr|";
-    }
-
-    48% {
-        content: "Fre|";
-    }
-
-    49.5% {
-        content: "Free|";
-    }
-
-    51% {
-        content: "Freel|";
-    }
-
-    52.5% {
-        content: "Freela|";
-    }
-
-    54% {
-        content: "Freelan|";
-    }
-
-    55.5% {
-        content: "Freelanc|";
-    }
-
-    57% {
-        content: "Freelance|";
-    }
-
-    58.5% {
-        content: "Freelancer|";
-    }
-
-    60% {
-        content: "Freelancer";
-    }
-
-    61.5% {
-        content: "Freelancer|";
-    }
-
-    63% {
-        content: "Freelance|";
-    }
-
-    64.5% {
-        content: "Freelanc|";
-    }
-
-    66% {
-        content: "Freelan|";
-    }
-
-    67.5% {
-        content: "Freela|";
-    }
-
-    69% {
-        content: "Freel|";
-    }
-
-    70.5% {
-        content: "Free|";
-    }
-
-    72% {
-        content: "Fre|";
-    }
-
-    73.5% {
-        content: "Fr|";
-    }
-
-    75% {
-        content: "F|";
-    }
-
-    76.5% {
-        content: "|";
-    }
-
-    78% {
-        content: "P|";
-    }
-
-    79% {
-        content: "Ph|";
-    }
-
-    80% {
-        content: "Pho|";
-    }
-
-    81% {
-        content: "Phot|";
-    }
-
-    82% {
-        content: "Photo|";
-    }
-
-    83% {
-        content: "Photog|";
-    }
-
-    84% {
-        content: "Photogr|";
-    }
-
-    85% {
-        content: "Photogra|";
-    }
-
-    86% {
-        content: "Photograp|";
-    }
-
-    87% {
-        content: "Photograph|";
-    }
-
-    88% {
-        content: "Photographe|";
-    }
-
-    89% {
-        content: "Photographer|";
-    }
-
-    90% {
-        content: "Photographer";
-    }
-
-    91% {
-        content: "Photographer|";
-    }
-
-    92% {
-        content: "Photographe|";
-    }
-
-    93% {
-        content: "Photograph|";
-    }
-
-    94% {
-        content: "Photograp|";
-    }
-
-    95% {
-        content: "Photogra|";
-    }
-
-    96% {
-        content: "Photogr|";
-    }
-
-    97% {
-        content: "Photog|";
-    }
-
-    98% {
-        content: "Photo|";
-    }
-
-    99% {
-        content: "Phot|";
-    }
-
-    99.3% {
-        content: "Pho|";
-    }
-
-    99.6% {
-        content: "Ph|";
-    }
-
-    99.8% {
-        content: "P|";
-    }
-
-    100% {
-        content: "|";
+@keyframes blink {
+    50% {
+        opacity: 0;
     }
 }
 
@@ -456,5 +150,162 @@ img{
 /* End Blog */
 
 /* Start footer */
+html {
+    scroll-behavior: smooth;
+}
 
+.footer {
+    position: relative;
+    border-top: 3px solid #0078ff;
+}
+
+.footer .navbar-brand:hover {
+    color: #0078ff !important;
+}
+
+.footer-title {
+    position: relative;
+    color: #fff;
+    padding-bottom: 12px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.footer-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background: #0078ff;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-right: 0;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    padding-right: 6px;
+}
+
+.footer-links li {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.social-icon {
+    width: 38px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #0078ff;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.newsletter-form {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.newsletter-form input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.newsletter-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.newsletter-form input:focus {
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn-subscribe {
+    background: #0078ff;
+    border: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.btn-subscribe:hover {
+    background: #0057bf;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+}
+
+.back-to-top {
+    width: 42px;
+    height: 42px;
+    background: #0078ff;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background: #0078ff;
+    border-color: #0078ff;
+    transform: translateY(-3px);
+}
 /* End footer */
+
+/* Start Responsive */
+@media (max-width: 768px) {
+    #main,
+    .counter {
+        /* background-attachment:fixed بيعمل مشاكل على الموبايل (خصوصًا iOS) */
+        background-attachment: scroll;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header h4 {
+        font-size: 1.1rem;
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+}
+/* End Responsive */
